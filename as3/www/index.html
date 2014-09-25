@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <style>
+                body {
+                    background-color: #d0e4fe;
+                }
+                
+                h1 {
+                    color: orange;
+                    text-align: center;
+                }
+                
+                a {
+                    font-family: "Times New Roman";
+                    font-size: 20px;
+                }
+                /* unvisited link */
+                a:link {
+                    color: #FF0000;
+                }
+            
+                /* visited link */
+                a:visited {
+                    color: #00FF00;
+                }
+                ul.aaa{
+                    list-style-type: square;
+                }
+                li{
+                    display: inline;
+                    padding: 10px;
+                    border: 2px solid green;
+                }
+            </style>
+    </head>
+    <body>
+        <div data-role="page" id="pageone">
+            <div data-role="header">
+                <h1>pb's page</h1>
+                <a href="f3.html" data-rel="dialog">registe</a>
+                <div data-role="navbar">
+                    <ul class="aaa">
+                        <li><a href="index.html" class="ui-btn-active" data-icon="home">first page</a></li>
+                        <li><a href="index2.html" data-icon="arrow-r">second page</a></li>
+                    </ul>
+                </div>
+                <select name="day" id="day">
+                    <optgroup label="Weekdays">
+                        <option value="mon">Monday</option>
+                        <option value="tue">Tuesday</option>
+                        <option value="wed">Wednesday</option>
+                    </optgroup>
+                    <optgroup label="Weekends">
+                        <option value="sat">Saturday</option>
+                        <option value="sun">Sunday</option>
+                    </optgroup>
+                </select>
+                
+            </div>
+            
+            <div data-role="content">
+                <p>hello this is the first page of pengbin </p>
+                <p>you can now see how <em><strong>jquery mobile</strong></em> works well</p>
+                <p>I like pokemon, so do you want to go to the offical page of the pokemon us? if so,
+                <a href="http://www.pokemon.com/us" data-rel="dialog">go now!</a></p>
+                <p>go and see the first pokemon info now</p>
+                <a href="f4.html" data-rel="dialog">see it now</a>
+                
+            </div>
+            
+            <div data-role="footer">
+                <h1>license</h1>
+            </div>
+        </div>
+        
+                    
+        </div>
+    </body>
+</html>
